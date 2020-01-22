@@ -12,7 +12,8 @@ collections:
     label: "Project"
     folder: "content/projects"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
+    identifier_field: "name"
     editor:
       preview: false
     fields:
