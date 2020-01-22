@@ -12,10 +12,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    # - name: install
-    #   run: yarn install
-    # - name: build
-    #   run: yarn build
+    - name: install
+      run: yarn install
+    - name: build
+      run: yarn build
     - name: deploy
       uses: crazy-max/ghaction-github-pages@v1.2.5
       env:
